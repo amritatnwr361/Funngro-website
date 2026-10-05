@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Funngro for Teens: Earn Money with Real Projects</title>
+  <meta name="description" content="Funngro is a freelancing app where Indian teens take real projects from companies, build skills and get paid to their bank account or wallet.">
+  <meta name="robots" content="index, follow">
+  <!-- After deploying, replace the URL below with your GitHub Pages link -->
+  <link rel="canonical" href="https://YOUR-USERNAME.github.io/funngro-site/">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Funngro for Teens: Earn Money with Real Projects">
+  <meta property="og:description" content="Take real projects from companies, build skills and get paid to your bank account or wallet.">
+  <meta name="twitter:card" content="summary">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Plus+Jakarta+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {"@type": "Question", "name": "Who can join Funngro?", "acceptedAnswer": {"@type": "Answer", "text": "Funngro is built for young people who want to freelance. Check the app for the latest age and eligibility rules before you sign up."}},
+      {"@type": "Question", "name": "Do I need experience to start?", "acceptedAnswer": {"@type": "Answer", "text": "No. Start with projects that match what you already know, then build your profile and portfolio as you finish more work."}},
+      {"@type": "Question", "name": "How do I get paid?", "acceptedAnswer": {"@type": "Answer", "text": "Payments go straight to the bank account or wallet linked to your Funngro profile."}},
+      {"@type": "Question", "name": "How much can I earn?", "acceptedAnswer": {"@type": "Answer", "text": "It depends on the projects you take and how well you deliver. The pay is shown on every project before you start."}}
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="wrap bar">
+      <a class="logo" href="index.html" aria-label="Funngro home"><i aria-hidden="true"></i>funngro</a>
+      <button class="menu-btn" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">&#9776;</button>
+      <nav id="site-nav" aria-label="Main">
+        <ul>
+          <li><a class="link" href="index.html" aria-current="page">For teens</a></li>
+          <li><a class="link" href="company.html">For companies</a></li>
+          <li><a class="link" href="#how">How it works</a></li>
+          <li><a class="link" href="#faq">FAQ</a></li>
+          <li><a class="btn" href="https://play.google.com/store/search?q=funngro&amp;c=apps" rel="noopener">Get the app</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero" aria-labelledby="hero-title">
+      <span class="blob blob--a" aria-hidden="true"></span>
+      <span class="blob blob--b" aria-hidden="true"></span>
+      <div class="wrap">
+        <div>
+          <h1 id="hero-title">Get paid for what you're good at.</h1>
+          <p class="lede">Pick a project from real companies, finish it in your own time, and get paid straight to your bank account or wallet.</p>
+          <div class="hero-actions">
+            <a class="btn" href="https://play.google.com/store/search?q=funngro&amp;c=apps" rel="noopener">Download the app</a>
+            <a class="btn btn--light" href="#how">See how it works</a>
+          </div>
+        </div>
+
+        <div class="picker" aria-labelledby="picker-title">
+          <span class="sticker s1" aria-hidden="true">Paid projects</span>
+          <span class="sticker s2" aria-hidden="true">Your schedule</span>
+          <span class="sticker s3" aria-hidden="true">Learn + earn</span>
+          <h2 id="picker-title">What are you good at?</h2>
+          <p class="hint">Tap a skill to preview a sample project.</p>
+          <div class="chips" role="group" aria-label="Choose a skill">
+            <button class="chip" type="button" data-skill="design" aria-pressed="true">Design</button>
+            <button class="chip" type="button" data-skill="writing" aria-pressed="false">Writing</button>
+            <button class="chip" type="button" data-skill="video" aria-pressed="false">Reels</button>
+            <button class="chip" type="button" data-skill="coding" aria-pressed="false">Coding</button>
+            <button class="chip" type="button" data-skill="surveys" aria-pressed="false">Quick tasks</button>
+          </div>
+          <div class="gig" id="gig" aria-live="polite">
+            <span class="gig-tag" data-gig-tag>Design</span>
+            <h3 data-gig-title>Design an Instagram poster for a brand sale</h3>
+            <div class="gig-meta">
+              <span class="pay" data-gig-pay>&#8377;600</span>
+              <span data-gig-time>2 days</span>
+            </div>
+            <a class="btn btn--ink" href="https://play.google.com/store/search?q=funngro&amp;c=apps" rel="noopener">Find projects like this</a>
+          </div>
+          <p class="fine">Sample projects for illustration. Real projects and pay vary.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Moving ribbon -->
+    <div class="marquee" aria-hidden="true">
+      <div class="track">
+        <span>Design</span><span>Writing</span><span>Reels</span><span>Coding</span><span>Surveys</span><span>Testing</span><span>Research</span><span>Social media</span>
+        <span>Design</span><span>Writing</span><span>Reels</span><span>Coding</span><span>Surveys</span><span>Testing</span><span>Research</span><span>Social media</span>
+      </div>
+    </div>
+
+    <!-- How it works -->
+    <section id="how" aria-labelledby="how-title">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 id="how-title">From signup to payout in three steps</h2>
+          <p>No long applications. Build your profile, pick a project and start earning.</p>
+        </div>
+        <ol class="steps" style="list-style:none;padding:0 0 1.5rem;">
+          <li class="step">
+            <span class="num" aria-hidden="true">1</span>
+            <h3>Build your profile</h3>
+            <p>Download the app, add your skills and show what you can do.</p>
+          </li>
+          <li class="step">
+            <span class="num" aria-hidden="true">2</span>
+            <h3>Take a project</h3>
+            <p>Start with tasks that fit you. Finish a short evaluation project to unlock company projects.</p>
+          </li>
+          <li class="step">
+            <span class="num" aria-hidden="true">3</span>
+            <h3>Submit and get paid</h3>
+            <p>Deliver on time and the money goes to your bank account or wallet.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Perks -->
+    <section class="why" aria-labelledby="why-title">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 id="why-title">Made for teens who want to start early</h2>
+        </div>
+        <div class="perks">
+          <div class="perk">
+            <span class="ico" aria-hidden="true">&#9200;</span>
+            <div><h3>Work when you want</h3><p>Fit projects around school, college and exams.</p></div>
+          </div>
+          <div class="perk">
+            <span class="ico" aria-hidden="true">&#127970;</span>
+            <div><h3>Real company projects</h3><p>Build a portfolio with work that real brands asked for.</p></div>
+          </div>
+          <div class="perk">
+            <span class="ico" aria-hidden="true">&#127891;</span>
+            <div><h3>Learn while you earn</h3><p>Use the skill learning section to get ready for bigger projects.</p></div>
+          </div>
+          <div class="perk">
+            <span class="ico" aria-hidden="true">&#128184;</span>
+            <div><h3>Paid straight to you</h3><p>Money goes to your linked bank account or wallet.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq" id="faq" aria-labelledby="faq-title">
+      <div class="wrap">
+        <h2 id="faq-title">Questions teens ask us</h2>
+        <div class="list">
+          <details>
+            <summary>Who can join Funngro?</summary>
+            <p>Funngro is built for young people who want to freelance. Check the app for the latest age and eligibility rules before you sign up.</p>
+          </details>
+          <details>
+            <summary>Do I need experience to start?</summary>
+            <p>No. Start with projects that match what you already know, then build your profile and portfolio as you finish more work.</p>
+          </details>
+          <details>
+            <summary>How do I get paid?</summary>
+            <p>Payments go straight to the bank account or wallet linked to your Funngro profile.</p>
+          </details>
+          <details>
+            <summary>How much can I earn?</summary>
+            <p>It depends on the projects you take and how well you deliver. The pay is shown on every project before you start.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta" aria-labelledby="cta-title">
+      <div class="wrap">
+        <h2 id="cta-title">Your first project is waiting.</h2>
+        <p>Download the app, build your profile and pick something you'd enjoy doing.</p>
+        <a class="btn btn--ink" href="https://play.google.com/store/search?q=funngro&amp;c=apps" rel="noopener">Download the app</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <a class="logo" href="index.html" aria-label="Funngro home"><i aria-hidden="true"></i>funngro</a>
+      <ul>
+        <li><a href="index.html">For teens</a></li>
+        <li><a href="company.html">For companies</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+      <small>Concept redesign built as a website skills evaluation project.</small>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
